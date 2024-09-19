@@ -9,5 +9,6 @@ int main()
     for (auto p : m_map) {
         std::cout << p.first << " " << p.second << std::endl;
     }
+    std::cout << "its a test!" << std::endl;
     return 0;
 }
