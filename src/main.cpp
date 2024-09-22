@@ -1,14 +1,12 @@
-#include <iostream>
-#include <map>
+#include "log.h"
+#include "calc.h"
+#include "iostream"
+using namespace std;
 
 int main()
 {
-    std::map<std::string, std::string> m_map{};
-    std::string name = "test";
-    m_map[name] = "chicken";
-    for (auto p : m_map) {
-        std::cout << p.first << " " << p.second << std::endl;
-    }
-    std::cout << "its a test!" << std::endl;
-    return 0;
+    int i = 3;
+    int j = 2;
+    Log();
+    std::cout << Calc(i, j) << std::endl;
 }
