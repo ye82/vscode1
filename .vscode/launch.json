@@ -8,7 +8,7 @@
             "name": "(gdb) Windows 上的 Bash 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/build/my_executable",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

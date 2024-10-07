@@ -1,4 +1,4 @@
-#include <calc.h>
+#include "calc.h"
 
 int Calc(int a, int b)
 {

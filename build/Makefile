@@ -128,6 +128,54 @@ my_executable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/build
 .PHONY : my_executable/fast
 
+src/calc.obj: src/calc.cpp.obj
+.PHONY : src/calc.obj
+
+# target to build an object file
+src/calc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/calc.cpp.obj
+.PHONY : src/calc.cpp.obj
+
+src/calc.i: src/calc.cpp.i
+.PHONY : src/calc.i
+
+# target to preprocess a source file
+src/calc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/calc.cpp.i
+.PHONY : src/calc.cpp.i
+
+src/calc.s: src/calc.cpp.s
+.PHONY : src/calc.s
+
+# target to generate assembly for a file
+src/calc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/calc.cpp.s
+.PHONY : src/calc.cpp.s
+
+src/log.obj: src/log.cpp.obj
+.PHONY : src/log.obj
+
+# target to build an object file
+src/log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/log.cpp.obj
+.PHONY : src/log.cpp.obj
+
+src/log.i: src/log.cpp.i
+.PHONY : src/log.i
+
+# target to preprocess a source file
+src/log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/log.cpp.i
+.PHONY : src/log.cpp.i
+
+src/log.s: src/log.cpp.s
+.PHONY : src/log.s
+
+# target to generate assembly for a file
+src/log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_executable.dir\build.make CMakeFiles/my_executable.dir/src/log.cpp.s
+.PHONY : src/log.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_executable
+	@echo ... src/calc.obj
+	@echo ... src/calc.i
+	@echo ... src/calc.s
+	@echo ... src/log.obj
+	@echo ... src/log.i
+	@echo ... src/log.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

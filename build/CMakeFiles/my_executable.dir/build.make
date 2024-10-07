@@ -83,19 +83,53 @@ CMakeFiles/my_executable.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_executable.dir/src/main.cpp.s"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\main.cpp -o CMakeFiles\my_executable.dir\src\main.cpp.s
 
+CMakeFiles/my_executable.dir/src/log.cpp.obj: CMakeFiles/my_executable.dir/flags.make
+CMakeFiles/my_executable.dir/src/log.cpp.obj: CMakeFiles/my_executable.dir/includes_CXX.rsp
+CMakeFiles/my_executable.dir/src/log.cpp.obj: C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/log.cpp
+CMakeFiles/my_executable.dir/src/log.cpp.obj: CMakeFiles/my_executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_executable.dir/src/log.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_executable.dir/src/log.cpp.obj -MF CMakeFiles\my_executable.dir\src\log.cpp.obj.d -o CMakeFiles\my_executable.dir\src\log.cpp.obj -c C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\log.cpp
+
+CMakeFiles/my_executable.dir/src/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_executable.dir/src/log.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\log.cpp > CMakeFiles\my_executable.dir\src\log.cpp.i
+
+CMakeFiles/my_executable.dir/src/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_executable.dir/src/log.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\log.cpp -o CMakeFiles\my_executable.dir\src\log.cpp.s
+
+CMakeFiles/my_executable.dir/src/calc.cpp.obj: CMakeFiles/my_executable.dir/flags.make
+CMakeFiles/my_executable.dir/src/calc.cpp.obj: CMakeFiles/my_executable.dir/includes_CXX.rsp
+CMakeFiles/my_executable.dir/src/calc.cpp.obj: C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/calc.cpp
+CMakeFiles/my_executable.dir/src/calc.cpp.obj: CMakeFiles/my_executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_executable.dir/src/calc.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_executable.dir/src/calc.cpp.obj -MF CMakeFiles\my_executable.dir\src\calc.cpp.obj.d -o CMakeFiles\my_executable.dir\src\calc.cpp.obj -c C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\calc.cpp
+
+CMakeFiles/my_executable.dir/src/calc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_executable.dir/src/calc.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\calc.cpp > CMakeFiles\my_executable.dir\src\calc.cpp.i
+
+CMakeFiles/my_executable.dir/src/calc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_executable.dir/src/calc.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\src\calc.cpp -o CMakeFiles\my_executable.dir\src\calc.cpp.s
+
 # Object files for target my_executable
 my_executable_OBJECTS = \
-"CMakeFiles/my_executable.dir/src/main.cpp.obj"
+"CMakeFiles/my_executable.dir/src/main.cpp.obj" \
+"CMakeFiles/my_executable.dir/src/log.cpp.obj" \
+"CMakeFiles/my_executable.dir/src/calc.cpp.obj"
 
 # External object files for target my_executable
 my_executable_EXTERNAL_OBJECTS =
 
 my_executable.exe: CMakeFiles/my_executable.dir/src/main.cpp.obj
+my_executable.exe: CMakeFiles/my_executable.dir/src/log.cpp.obj
+my_executable.exe: CMakeFiles/my_executable.dir/src/calc.cpp.obj
 my_executable.exe: CMakeFiles/my_executable.dir/build.make
 my_executable.exe: CMakeFiles/my_executable.dir/linkLibs.rsp
 my_executable.exe: CMakeFiles/my_executable.dir/objects1.rsp
 my_executable.exe: CMakeFiles/my_executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_executable.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\m\Desktop\CppCode\VsCodeProject\VsMyproject01\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable my_executable.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_executable.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

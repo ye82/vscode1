@@ -1,6 +1,6 @@
-#include "log.h"
+#include <iostream>
 #include "calc.h"
-#include "iostream"
+#include "log.h"
 using namespace std;
 
 int main()

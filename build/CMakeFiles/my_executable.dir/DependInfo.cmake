@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/calc.cpp" "CMakeFiles/my_executable.dir/src/calc.cpp.obj" "gcc" "CMakeFiles/my_executable.dir/src/calc.cpp.obj.d"
+  "C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/log.cpp" "CMakeFiles/my_executable.dir/src/log.cpp.obj" "gcc" "CMakeFiles/my_executable.dir/src/log.cpp.obj.d"
   "C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/main.cpp" "CMakeFiles/my_executable.dir/src/main.cpp.obj" "gcc" "CMakeFiles/my_executable.dir/src/main.cpp.obj.d"
   )
 
