@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/my_executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\my_executable.dir\\src\\main.cpp.obj -c C:\\Users\\m\\Desktop\\CppCode\\VsCodeProject\\VsMyproject01\\src\\main.cpp",
+  "file": "C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/src/main.cpp",
+  "output": "CMakeFiles/my_executable.dir/src/main.cpp.obj"
+}
+]

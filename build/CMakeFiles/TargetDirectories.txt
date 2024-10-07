@@ -1,0 +1,3 @@
+C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/build/CMakeFiles/my_executable.dir
+C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/build/CMakeFiles/edit_cache.dir
+C:/Users/m/Desktop/CppCode/VsCodeProject/VsMyproject01/build/CMakeFiles/rebuild_cache.dir
